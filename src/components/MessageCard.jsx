@@ -13,19 +13,20 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `
+🎉✨ Happy Birthday, Sanya! ✨🎉
 
-Your personalized birthday message goes here.
+On this beautiful day — 03/01/2026 — I just want to say how lucky I am to know someone as amazing as you 💫. Whether you're lighting up the room with your smile 😊, sharing your wisdom 🧠, or just being your wonderful self, you make life brighter for everyone around you 🌈.
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+You're not just a good friend, you're like a sister to me 👭 — someone I deeply respect, admire, and care for. May this year bring you endless laughter 😂, exciting adventures 🌍, and dreams that come true 🌟.
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Keep being the incredible person you are, and never stop shining 🌞. You deserve all the happiness in the world 💖.
 
-Happy Birthday! 🎉
+Enjoy every moment of your day — eat cake 🍰, dance like nobody's watching 💃, and make unforgettable memories 📸!
 
-— [Your Name]`;
+With lots of love and good vibes,  
+Aadarsh 🙌
+`;
 
   // Handle page transitions
   useEffect(() => {
